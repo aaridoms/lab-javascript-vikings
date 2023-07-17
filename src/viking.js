@@ -57,7 +57,7 @@ class War {
         this.saxonArmy = [];
     }
 
-    addVikings = (Viking) => {
+    addViking = (Viking) => {
         this.vikingArmy.push(Viking)
     }
 
@@ -128,7 +128,7 @@ class War {
 
 // let war1 = new War()
 // war1.addSaxon(saxon1, saxon2, saxon3, saxon4)
-// war1.addVikings(viking1, viking2, viking3, viking4)
+// war1.addViking(viking1, viking2, viking3, viking4)
 // console.log(war1.vikingAttack())
 // console.log(war1.saxonAttack())
 
